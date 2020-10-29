@@ -16,3 +16,8 @@ variable db_password {}
 #Variables for S3 Bucket for incoming feeds
 variable "bucket_name" {}
 variable "bucket_type" {}
+
+#VPN Variables
+variable "vpn_cidr" {}
+variable "logs_retention" {}
+variable organisation_name {}
