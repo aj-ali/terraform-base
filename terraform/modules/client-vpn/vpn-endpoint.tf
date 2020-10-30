@@ -10,7 +10,7 @@ data "aws_subnet_ids" "selected" {
   vpc_id = data.aws_vpc.selected.id
 
   tags = {
-    Environment = var.env_name
+    Name = "${var.env_name}*private*"
   }
 }
 
