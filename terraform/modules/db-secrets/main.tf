@@ -17,7 +17,7 @@ resource "aws_secretsmanager_secret_version" "secret" {
   secret_string = <<EOF
 {
   "db_username": "${var.db_username}",
-  "db_password": "${var.db_password}",
+  "db_password": "${var.db_password}"
 }
 EOF
 }

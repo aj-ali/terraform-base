@@ -17,7 +17,3 @@ variable db_password {}
 variable "bucket_name" {}
 variable "bucket_type" {}
 
-#VPN Variables
-variable "vpn_cidr" {}
-variable "logs_retention" {}
-variable organisation_name {}
