@@ -1,4 +1,4 @@
-env_name = "prod"
+env_name = "dev"
 aws_region = "eu-west-2"
 cidr = "10.0.0.0/16"
 vpc_azs = ["eu-west-2a", "eu-west-2b"]
